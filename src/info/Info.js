@@ -3,7 +3,8 @@ import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
+import mock6 from "../img/mock6.png";
+import mock7 from "../img/mock7.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -115,6 +116,38 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
+      title: "MovieMaze",
+      description: `MovieMaze is a collaborate Movies details website made with ReactJS with TailwindCSS, Redux Toolkit and RESTfull APIs with GET and POST methods, 
+      To view movies details, reviews, cast, recommendations, search and cast information. with login/signup, writing reviews and adding to favorite `,
+      live: "https://aflam-psi.vercel.app/",
+      source: "https://github.com/engmo159/aflam",
+      image: mock7,
+    },
+    {
+      title: "DressAura",
+      description: `DressAura is a E-Commerce website made with ReactJS with TailwindCSS, ContextAPI and RESTfull APIs with GET and POST methods, 
+      with a Dashboard to edit products and users, Authentication and Shooping Cart, Dark & Light mode `,
+      live: "https://dress-aura.vercel.app/",
+      source: "https://github.com/askaryxiii/DressAura",
+      image: mock6,
+    },
+    {
+      title: "MEMEs",
+      description:
+        "memes project is the first project ever to work with APIs, it's a simple App to show you a random MEME from a number you type, Created as DEPI project",
+      live: "https://memes-teal-three.vercel.app/",
+      source: "https://github.com/askaryxiii/Memes.git",
+      image: mock4,
+    },
+    {
+      title: "lingulas",
+      description: `lingulas is a translate app made with HTML, CSS, JS, with RESTfull APIs with GET and POST methods, 
+      It's second time to work with APIs and first with POST method. Created as DEPI project`,
+      live: "https://lingulas.vercel.app/",
+      source: "https://github.com/askaryxiii/lingulas.git",
+      image: mock3,
+    },
+    {
       title: "CALCX",
       description: `This calculator app had been created with HTML, CSS, and pure JS.
       this the first ever Web project to work on, It was an assignment from 
@@ -130,22 +163,6 @@ export const info = {
       live: "https://facebook-login-omega.vercel.app/",
       source: "https://github.com/askaryxiii/Facebook-login.git",
       image: mock2,
-    },
-    {
-      title: "lingulas",
-      description: `lingulas is a translate app made with HTML, CSS, JS, with RESTfull APIs with GET and POST methods, 
-      It's second time to work with APIs and first with POST method. Created as DEPI project`,
-      live: "https://lingulas.vercel.app/",
-      source: "https://github.com/askaryxiii/lingulas.git",
-      image: mock3,
-    },
-    {
-      title: "MEMEs",
-      description:
-        "memes project is the first project ever to work with APIs, it's a simple App to show you a random MEME from a number you type, Created as DEPI project",
-      live: "https://memes-teal-three.vercel.app/",
-      source: "https://github.com/askaryxiii/Memes.git",
-      image: mock4,
     },
   ],
 };
